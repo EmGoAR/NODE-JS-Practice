@@ -1,27 +1,54 @@
 body {
-    background-color: rgb(31, 31, 31);
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/c/fb/cat-yellow-eyes-paw-funny-cute-simple-background-digital-art.jpg");
+    background-color: #000000; /* Used if the image is unavailable */
+    background-position: 0cm 0cm; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     color: rgb(219, 219, 219);
     justify-content: center;
     align-items: center;
 }
 
-a{
-    text-decoration: none;
-}
-/* unvisited link */
-a:link {color: rgb(142, 201, 255);}
-/* visited link */
-a:visited {color: rgb(207, 115, 212);}
-/* mouse over link */
-a:hover {color: rgb(255, 255, 255);}
-/* selected link */
-a:active {color: rgb(255, 69, 32);}
+a{text-decoration: none;}
+a:link {color: rgb(142, 201, 255);}/* unvisited link */
+a:visited {color: rgb(207, 115, 212);}/* visited link */
+a:hover {color: rgb(255, 255, 255);}/* mouse over link */
+a:active {color: rgb(255, 69, 32);}/* selected link */
 
-h1 {
-    background: rgb(90, 90, 90);
-    color: rgb(100, 177, 255);
+.caja{
+    width: 65%;
+    margin: 8px;
+    padding-left: 25px;
+    border-width: 4px;
+    border-right: solid;    
+    border-bottom: solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #202020;
+    border-radius: 6px;
+    background-color: #3a3a3a;
 }
 
 .BgForText {
     background: rgb(90, 90, 90);
+}
+
+.mainTitle {
+    margin: 0px, 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imageBox {
+    width: 65%;
+    margin: 8px;
+    border-width: 4px;
+    border-right: solid;    
+    border-bottom: solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-color: #282828;
+    border-radius: 6px;
 }
