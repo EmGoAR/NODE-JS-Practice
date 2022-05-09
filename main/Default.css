@@ -7,6 +7,8 @@ body {
     color: rgb(219, 219, 219);
     justify-content: center;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
 a{text-decoration: none;}
@@ -16,9 +18,10 @@ a:hover {color: rgb(255, 255, 255);}/* mouse over link */
 a:active {color: rgb(255, 69, 32);}/* selected link */
 
 .caja{
-    width: 65%;
-    margin: 8px;
+    width: 60%;
+    margin: 0 auto;
     padding-left: 25px;
+    padding-right: 25px;
     border-width: 4px;
     border-right: solid;    
     border-bottom: solid;
@@ -33,8 +36,65 @@ a:active {color: rgb(255, 69, 32);}/* selected link */
     background: rgb(90, 90, 90);
 }
 
+#Contact-Btn {
+    margin: auto;
+    padding: 15px;
+    font-weight: 600;
+    background-color: #282828;
+    border-width: 1px; 
+    border-radius: 4px;
+}
+
+#Contact-Btn:hover{background-color: rgb(49, 68, 131);}
+
+.dropdown{
+    background-color: #313131;
+    padding:15px 0px;  
+    display: inline;
+}
+
+.dropdown-btn{
+    border-radius: 0;
+    border-width: 0;
+    border-right: 1px solid black;
+    border-left : 1px solid black;
+    background-color: #313131;  
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.dropdown-btn a:visited{color: white;}
+.dropdown-btn:hover{
+    background-color: rgb(49, 68, 131);
+    cursor: pointer;
+    position: relative
+}
+
+.dropdown-content{
+    position: absolute;
+    background-color: #313131;  
+    border: 1px solid black;
+    margin: 0;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.616);
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown-content p {padding: 15px 10px; margin: 0;}
+.dropdown-content p:hover {background-color: rgb(49, 68, 131);}
+
+header{
+    background-color: #3a3a3a;
+    border: 0 solid;
+    border-bottom: 2px solid;
+    border-color: #202020;
+    position:fixed;
+    display: inline;
+    width: 100%
+}
+
 .mainTitle {
-    margin: 0px, 20px;
     text-align: center;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -42,8 +102,8 @@ a:active {color: rgb(255, 69, 32);}/* selected link */
 }
 
 .imageBox {
-    width: 65%;
-    margin: 8px;
+    width: 80%;
+    margin: auto;
     border-width: 4px;
     border-right: solid;    
     border-bottom: solid;
