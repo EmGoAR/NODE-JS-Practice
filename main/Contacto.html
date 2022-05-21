@@ -1,40 +1,45 @@
 <!DOCTYPE html>
+
 <head>
     <title>Contacto</title>
     <link rel="stylesheet" href="Default.css" type="text/css">
 </head>
+
 <body>
     <header>
         <div class="dropdown">
-            <button class="dropdown-btn">LISTA DE MICHIS</button>
-            <div class="dropdown-content">
-                <p onclick="window.location.href='Michi1.html'">Michi Wan</p>
-                <p onclick="window.location.href='Michi2.html'">Michi Chu</p>
-                <p onclick="window.location.href='Michi3.html'">Michi Tri</p>
+            <div class="dropdown-Btn">
+                <button class="Left-Float navlistbutton">BOTONLISTA</button>
+                <div class="dropdown-content">
+                    <button onclick="window.location.href='Michi1.html'" class="listButton">MICHI WAN</button>
+                    <button onclick="window.location.href='Michi2.html'" class="listButton">MICHI CHU</button>
+                    <button onclick="window.location.href='Michi3.html'" class="listButton">MICHI TRI</button>
+                </div>
             </div>
+            <button onclick="window.location.href='Index.html'" class="Right-Float navButton">HOME</button>
         </div>
-        <button class="dropdown-btn" onclick="window.location.href='Index.html'"><a href="Index.html">◄</a></button>
     </header>
-    <br><br><br>
 
-    <div class="caja">
-        <h1>Contacto</h1>
-        <p>Por favor llena este formulario para hablar con nosotros</p>
-        <br>
-        <fieldset>
-            <legend>Datos de contacto</legend>
-            <form action="ContactoListo.html"></form>
-            <label>Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="nombre"/>
-            <label>Apellido</label>
-            <input type="text" id="apellido" name="apellido" placeholder="apellido"/>
-            <label>Correo</label>
-            <input type="email" id="email" name="email" placeholder="email">
+    <main>
+        <div class="caja">
+            <h1>Contacto</h1>
+            <p>Por favor llena este formulario para hablar con nosotros</p>
             <br>
-            <label>Comentarios</label>
-            <textarea></textarea>
-            <input type="submit" value="Aceptar" onclick="window.location.href='ContactoListo.html'">
-        </fieldset>
-        <br>
-    </div>
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <form action="ContactoListo.html"></form>
+                <label>Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="nombre" />
+                <label>Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="apellido" />
+                <label>Correo</label>
+                <input type="email" id="email" name="email" placeholder="email">
+                <br>
+                <label>Comentarios</label>
+                <textarea></textarea>
+                <input type="submit" value="Aceptar" onclick="window.location.href='ContactoListo.html'">
+            </fieldset>
+            <br>
+        </div>
+    </main>
 </body>
